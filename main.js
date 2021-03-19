@@ -7,6 +7,7 @@ function calcul() {
   document.getElementById("screen").innerHTML = eval(
     document.getElementById("screen").textContent
   );
+  tab = [];
 }
 function correct() {
   tab = [];
