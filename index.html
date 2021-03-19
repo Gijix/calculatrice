@@ -8,29 +8,29 @@
     <title>Calculatrice</title>
 </head>
 <body>
-    <div class="container-cal">
-        <div id="screen" class="screen">test</div>
+    <div " class="container-cal">
+        <div id="screen" class="screen"></div>
         <div class="cat-number">
-            <div onclick="" id="zero" class="number">0</div>
-            <div onclick="" id="un"  class="number">1</div>
-            <div onclick="" id="deux" class="number">2</div>
-            <div onclick="" id="trois" class="number">3</div>
-            <div onclick="" id="quatre" class="number">4</div>
-            <div onclick="" id="cinq" class="number">5</div>
-            <div onclick="" id="six" class="number">6</div>
-            <div onclick="" id="sept" class="number">7</div>
-            <div onclick="" id="huit" class="number">8</div>
-            <div onclick="" id="neuf" class="number">9</div>
-            <div onclick="" id="dot" class="number">.</div>
-            <div onclick="" id="correct" class="number">c</div>
-            <div onclick="" id="calcul" class="egal">=</div>
+            <div onclick="(setItem('0'))" id="zero" class="number">0</div>
+            <div onclick="(setItem('1'))" id="un"  class="number">1</div>
+            <div onclick="(setItem('2'))" id="deux" class="number">2</div>
+            <div onclick="(setItem('3'))" id="trois" class="number">3</div>
+            <div onclick="(setItem('4'))" id="quatre" class="number">4</div>
+            <div onclick="(setItem('5'))" id="cinq" class="number">5</div>
+            <div onclick="(setItem('6'))" id="six" class="number">6</div>
+            <div onclick="(setItem('7'))" id="sept" class="number">7</div>
+            <div onclick="(setItem('8'))" id="huit" class="number">8</div>
+            <div onclick="(setItem('9'))" id="neuf" class="number">9</div>
+            <div onclick="(setItem('.'))" id="dot" class="number">.</div>
+            <div onclick="(correct())" id="correct" class="number">c</div>
+            <div onclick="(calcul())" id="calcul" class="egal">=</div>
         </div>
         <div class="cat-operator">
-            <div onclick="" id="add" class="operator">+</div>
-            <div onclick="" id="drop" class="operator">-</div>
-            <div onclick="" id="product" class="operator">X</div>
-            <div onclick="" id="divide" class="operator">÷</div>
-            <div onclick="" id="pourcentage" class="operator">%</div>
+            <div onclick="(setItem('+'))" id="add" class="operator">+</div>
+            <div onclick="(setItem('-'))" id="drop" class="operator">-</div>
+            <div onclick="(setItem('*'))" id="product" class="operator">*</div>
+            <div onclick="(setItem('/'))" id="divide" class="operator">/</div>
+            <div onclick="(setItem('%'))" id="pourcentage" class="operator">%</div>
         </div>
     </div>
     <script src="main.js"></script>

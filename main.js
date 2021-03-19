@@ -1,19 +1,14 @@
-const zero  = document.getElementById('zero')
-const un  = document.getElementById('un')
-const deux  = document.getElementById('deux')
-const trois  = document.getElementById('trois')
-const quatre  = document.getElementById('quatre')
-const cinq  = document.getElementById('cinq')
-const six  = document.getElementById('six')
-const sept  = document.getElementById('sept')
-const huit   = document.getElementById('huit')
-const neuf  = document.getElementById('neuf')
-const dot  = document.getElementById('dix')
-const correct  = document.getElementById('correct')
-const calcul  = document.getElementById('calcul')
-const add  = document.getElementById('add')
-const drop  = document.getElementById('drop')
-const product  = document.getElementById('product')
-const divide  = document.getElementById('divide')
-const pourcentage  = document.getElementById('pourcentage')
-const screen  = document.getElementById('screen')
+let tab = [];
+function setItem(e) {
+  tab.push(e);
+  document.getElementById("screen").innerHTML = tab.join("");
+}
+function calcul() {
+  document.getElementById("screen").innerHTML = eval(
+    document.getElementById("screen").textContent
+  );
+}
+function correct() {
+  tab = [];
+  document.getElementById("screen").innerHTML = "";
+}

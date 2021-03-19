@@ -51,7 +51,7 @@ body{
     text-align: center;
     font-size: 75px;
     width: 26%;
-    height: 17%;
+    height: 15%;
     cursor: pointer;
 }
 .number:hover{
@@ -91,7 +91,7 @@ body{
     align-items: center;
     margin-left: 20px;
     width: 20%;
-    height: 65%;
+    height: 64%;
 
 }
 .operator{
@@ -100,7 +100,7 @@ body{
     text-align: center;
     font-size: 75px;
     width: 90%;
-    height:17%;
+    height:16%;
     background-color:rgb(34, 76, 189) ;
     color: white;
     border: solid;
