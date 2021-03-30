@@ -21,6 +21,9 @@ body{
     background-color: rgb(18, 134, 211);
 }
 .screen{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: '';
     text-align: right;
     font-family: 'orbitron';
     padding-right: 30px;
